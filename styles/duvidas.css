@@ -1,0 +1,63 @@
+.duvidas{
+    min-height: 30rem;
+    background-color: var(--color-grey-2);
+}
+.duvidas > div{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    margin: 0 236px;
+}
+.esquerda{
+    
+    width: 38%;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.esquerda h2{
+    color: var(--color-grey-7);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.esquerda p{
+    color: var(--color-grey-4);
+    display: block;
+    text-align: start;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.esquerda button{
+    width: 70%;
+    padding: 0.7rem 0;
+}
+
+.direita{
+    width: 50%;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+.retraido{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.retraido div{
+    display: flex;
+    justify-content: space-between;
+}
+.retraido div h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-grey-7);
+}
+.texto{
+    display: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-grey-6);
+}

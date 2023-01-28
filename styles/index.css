@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: var(--color-grey-1);
+}
+footer h2{
+    color: var(--color-grey-5);
+    font-size: 1rem;
+    font-weight: 600;
+}

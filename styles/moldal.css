@@ -1,0 +1,66 @@
+.moldal{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.624);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.moldal-box{
+    position: absolute;
+    top: -50px;
+    background-color: var(--color-grey-2);
+    width: 30%;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    border: 1px solid var(--color-primary);
+}
+.moldal-box h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-grey-7);
+}
+
+.moldal-box span{
+    color: var(--color-grey-7);
+    position: absolute;
+    top: 1.8rem;
+    right: 1.8rem;
+    background-color: var(--color-grey-3);
+    color: #868E96;
+    padding: 0.3rem 0.5rem;
+}
+.moldal-box span:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+.moldal-box p{
+    color: var(--color-grey-5);
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+.moldal-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.moldal-box form input{
+    background-color: var(--grey);
+    border: var(--grey) 1px solid;
+    padding: 14px 20px;
+    outline: none;
+    color: var(--color-grey-7);
+    font-size: 1rem;
+}
+
+.moldal-box form button{
+    width: 100%;
+    height: 2.5rem;
+}

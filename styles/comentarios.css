@@ -1,0 +1,67 @@
+.comentarios{
+    background-color: var(--color-grey-2);
+    padding-bottom: 100px;
+    
+}
+.divisao{
+    margin: auto 236px;
+    display: flex;
+    gap: 4rem;
+}
+.comentarios_central{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.comentario{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comentario div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.comentario div h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-grey-7);
+}
+.comentario div span{
+    color: var(--color-grey-4);
+    font-weight: 300;
+    font-size: 1rem;
+}
+.comentario p{
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-grey-7);
+}
+.flutuante{
+    position: sticky;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: min-content;
+    padding: 3rem 2rem;
+    background-color: var(--color-primary);
+    width: 25%;
+}
+.flutuante h3{
+    color: var(--color-grey-7);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.flutuante p{
+    color: var(--color-grey-7);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.flutuante img{
+    width: 50%;
+}

@@ -1,0 +1,25 @@
+.sobre{
+    height: 15rem;
+    display: flex;
+    background-color: var(--grey);
+    align-items:center;
+}
+.sobre div{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: auto 236px;
+}
+.sobre div h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-grey-6);
+}
+.sobre div p{
+    font-weight: 400;
+    color: var(--color-grey-4);
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+

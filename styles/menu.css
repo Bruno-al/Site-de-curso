@@ -1,0 +1,29 @@
+.menu{    
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.menu div{ 
+    width: 100%;  
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    margin: auto 236px;
+}
+.menu h1{
+    color: var(--color-grey-7);
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu button{
+    border: solid var(--color-grey-6) 1px ;
+    background-color: var(--color-grey-1);
+    padding: 10px 60px;
+    color: var(--color-grey-6);
+}
+.menu button:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
